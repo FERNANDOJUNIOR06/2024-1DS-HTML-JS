@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
+<script> pulaLinha(){
+    document.write('<br><br>')
+}
+
+function mostra(texto){
+    document.write(texto)
+    pulaLinha()
+}
+
+mostra('número de pontos de meu time no brasileirão')
+
+let vitórias = prompt('quanta vitórias o seu time teve durante o campeonato?')
+let nomeTime = prompt('quantas vitórias o seu time obteve durante o campeonato?')
+let empates = prompt('quantos empates o seu time teve?')
+let derrotas =('quantas vezes seu time perdeu')
+
+let pontuacao = parseInt(vitórias * 3 + parseInt(empates))
+
+mostra( '0 ${nomeTime} obteve um total de ${pontuacao} pontos')
+if(pontuacao > 80){
+    mostra(parabens, seu time passou para a serie A do brasileirao)
+} else if( pontuacao < 20)
+
