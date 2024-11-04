@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculadora IMC</title>
+    <title> Anos das olimpíadas </title>
 </head>
 <body>
     <script>
@@ -17,14 +17,12 @@
             pulaLinha()
         }
 
-        function calcularIMC(peso, altura){
-          return imc = peso/(altura*altura)
-          
+        let anoInicial = 1896
+
+        while(anoInicial <= 2024){
+            mostra(`${anoInicial} teve olimpíadas`)
+            anoInicial = anoInicial + 4
         }
-
-        let imcNath = calcularIMC(49, 1.53)
-
-        mostra('O IMC do ernando é: ' + imcfernando)
 
     </script>
 </body>
